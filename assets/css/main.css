@@ -159,3 +159,18 @@ footer li:hover{
     color: black;
     font-weight: bolder;
 }
+
+#probandoModal2{
+    display: none;
+}
+
+
+@media (min-width: @screen-sm-min) {
+#probandoModal2{
+    display: none;
+}
+    
+    #probandoModal1{
+    display: block;
+}
+}

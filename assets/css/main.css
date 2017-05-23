@@ -19,9 +19,12 @@ html,body{
 .blanco{
     color: white;
 }
-
+.fondoNegro{
+    background-color: black;
+}
 #probandoModal{
-    background-image: url(../img/taxi_00.jpg);
+    background-image: url(../img/taxi.jpg);
+    background-position: bottom;
     background-size: cover;
     padding-top: 14%;
     padding-bottom: 14%;
@@ -110,4 +113,49 @@ footer li{
 
 footer li:hover{
     text-decoration: underline;
+}
+
+#cuentaNueva{
+    margin-top: 3%;
+    padding: 1%;
+    background-color: darkgray;
+    border-radius: 2%;
+}
+#cuentaNueva ul li{
+    padding: 1%;
+    background-color: darkgray;
+    border: none;
+    
+}
+#cuentaNueva ul li div:nth-child(4) input{
+    border-radius: 4px;
+    width: 49%;
+    padding: 1%;
+    
+}
+#cuentaNueva ul li div{
+    margin: 2%;
+    
+}
+
+#iniciarSesion  {
+    background-color: rgba(0,0,0,0.8);
+    padding: 10%;
+    
+}
+
+#iniciarSesion > div:nth-child(1) {
+    background-color: greenyellow;
+    padding: 1%;
+    
+}
+
+#iniciarSesion div:nth-child(1) >div{
+    margin: 10%;
+}
+
+#iniciarSesion button{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
 }

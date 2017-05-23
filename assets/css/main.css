@@ -1,0 +1,44 @@
+.navEstilo{
+    margin:1%
+}
+
+html,body{
+    height: 100%;
+    width: 100%
+}
+
+.bold{
+    font-weight: bolder
+}
+.orange{
+    background-color: orange;
+}
+.blanco{
+    color: white;
+}
+
+#probandoModal{
+    background-image: url(../img/taxi_00.jpg);
+    background-size: cover;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    height: 100%;
+    width: 100%;
+}
+
+#probandoModal >div{
+    padding: 4%;
+    padding-left: 8%;
+}
+
+.containerDeLineas{
+    display: flex;
+    align-items: center;
+}
+
+.linea{
+    background-color: white;
+    height: 2px;
+    width: 40%;
+    margin: 2%
+}

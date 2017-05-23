@@ -17,8 +17,8 @@ btnCerrarConductor.addEventListener("click", cerrarConductorsin)
 var btnIniciarSesion = document.getElementById("iniciarSecionBoton");
 btnIniciarSesion.addEventListener("click",mostrarInicioSecion)
     
-var contenidoInicio = document.getElementById("cerrarInicioSesion");
-contenidoInicio.addEventListener("click",cerrarInicioSesion)
+var contenidoInicio = document.getElementById("cerrarInicio");
+contenidoInicio.addEventListener("click",cerrarInicioSesion);
 }
 
 agregarEventos();
@@ -48,14 +48,14 @@ function cerrarConductorsin(){
 }
 
 function mostrarInicioSecion(){
-    var conductor = document.getElementById("iniciarSesion");
+    var inicioSesion = document.getElementById("iniciarSesion");
     
-    conductor.style.display="block"
+    inicioSesion.style.display="block"
 }
 function cerrarInicioSesion(){
-    var conductor = document.getElementById("iniciarSesion");
+    var inicioSesion = document.getElementById("iniciarSesion");
     
-    conductor.style.display="none"
+    inicioSesion.style.display="none";
 }
 
 
